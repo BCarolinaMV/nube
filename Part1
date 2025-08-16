@@ -1,0 +1,17 @@
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        // Declaración de variables
+        int edad = 20;                
+        string nombre = "Brenda";      
+        bool tieneLicencia = true;     
+
+        // Opcional: mostrar valores en consola
+        Console.WriteLine("Nombre: " + nombre);
+        Console.WriteLine("Edad: " + edad);
+        Console.WriteLine("¿Tiene licencia?: " + tieneLicencia);
+    }
+}
